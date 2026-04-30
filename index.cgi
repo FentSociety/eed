@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "Content-type: text/html"
+echo ""
+echo "<html>"
+echo "<head><title>Synology CGI</title></head>"
+echo "<body>"
+echo "<h1>Synology NAS CGI Status</h1>"
+echo "<p>The script is running successfully.</p>"
+echo "<p><strong>Server Time:</strong> $(date)</p>"
+echo "<p><strong>System Uptime:</strong> $(uptime -p)</p>"
+echo "</body>"
+echo "</html>"
